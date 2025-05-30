@@ -7,7 +7,7 @@ This projects presents a comprehensive data analysis and visualization of COVID-
 ## Included plots:
 
 - New weekly confirmed COVID-19 cases countrywide.
-- Total number of COVID-19-caused deaths statewide.
+- Total number of COVID-19-related deaths statewide.
 - Cumulative COVID-19 cases and deaths comparing the USA to other countries. 
 - COVID-19 vaccination trends (full, 1 dose, boosters) both country and statewide.
 - Weekly COVID-19 hospital admissions compared to weekly new cases.

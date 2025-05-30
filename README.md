@@ -19,14 +19,17 @@ This projects presents a comprehensive data analysis and visualization of COVID-
 ## Data sources:
 
 GitHub repositories:
-- https://github.com/nytimes/covid-19-data
-- https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
-- https://github.com/google/dspl
-- https://github.com/ryan-serpico/us-college-coordinates
+
+    https://github.com/nytimes/covid-19-data
+    https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+    https://github.com/google/dspl
+    https://github.com/ryan-serpico/us-college-coordinates
 
 Ballotpedia:
-- https://ballotpedia.org/States_that_issued_lockdown_and_stay-at-home_orders_in_response_to_the_coronavirus_(COVID-19)_pandemic,_2020
+
+    https://ballotpedia.org/States_that_issued_lockdown_and_stay-at-home_orders_in_response_to_the_coronavirus_(COVID-19)_pandemic,_2020
 
 Our World in Data:
-- https://ourworldindata.org/coronavirus
+
+    https://ourworldindata.org/coronavirus
 

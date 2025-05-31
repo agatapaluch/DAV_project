@@ -1,0 +1,65 @@
+﻿United States COVID-19 Deaths ED Visits and Positivity by State
+Date generated: Tue May 27 2025 22:31:14 GMT+0200 (czas środkowoeuropejski letni)
+State/Territory,HHS Region,Percentage of deaths due to COVID-19 in past week,Percent change percentage of deaths due to COVID-19 in past week,Absolute change percentage of deaths due to COVID-19 in past week,Deaths in the Past 3 Months,Death Rate per 100000 for the Past 3 Months,Total Deaths,Total Death rate per 100000,Percent of ED visits diagnosed as COVID-19,Percent change in % of visits diagnosed as COVID-19 from last week compared to prior week,Test positivity (%) in past week,Change in test positivity compared with prior week,Test positivity (%) in past 2 weeks,Test positivity (%) in past 4 weeks,Test volume in past week,Test volume in past 2 weeks,Test volume in past 4 weeks
+Alabama,Region 4,Counts 1-9,N/A,N/A,94,1.5,23787,382.3,0.4%,-11.4%,2.3,-0.1,2.4,3.1,2800,9178,19495
+Alaska,Region 10,0,N/A,N/A,Counts 1-9,Not Calculated (<20 deaths),1631,246.1,0.4%,8.8%,4.1,0.1,3.7,3.5,3622,9218,18462
+American Samoa,N/A,Data not available,N/A,N/A,Data not available,Data not available,Data not available,Data not available,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Arizona,Region 9,Counts 1-9,N/A,N/A,81,0.9,31421,343.4,0.5%,1.5%,5.1,-0.5,5.7,5.2,2030,4510,9625
+Arkansas,Region 6,Counts 1-9,N/A,N/A,53,1.4,13472,363,0.2%,-20.7%,3,-0.1,3,3.2,5904,16447,35047
+California,Region 9,Counts 1-9,N/A,N/A,298,0.7,116337,262.8,0.4%,-1.5%,5.1,-0.5,5.7,5.2,2030,4510,9625
+Colorado,Region 8,Counts 1-9,N/A,N/A,53,0.9,16227,268.8,0.3%,9.9%,2.7,0.1,2.3,2.2,1920,4426,9364
+Connecticut,Region 1,0,N/A,N/A,46,0.9,13286,272.5,0.4%,5.0%,2.5,-0.2,2.8,2.9,2797,7574,16383
+Delaware,Region 3,0,N/A,0,23,1.6,3873,290.4,0.2%,18.9%,1.7,-0.5,2.3,2.6,2283,5608,12133
+District of Columbia,Region 3,0,N/A,0,Counts 1-9,Not Calculated (<20 deaths),1978,297.3,0.1%,-46.2%,1.7,-0.5,2.3,2.6,2283,5608,12133
+Federated States of Micronesia,N/A,Data not available,N/A,N/A,Data not available,Data not available,Data not available,Data not available,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Florida,Region 4,Counts 1-9,N/A,N/A,233,0.7,85847,266.5,0.4%,3.0%,2.3,-0.1,2.4,3.1,2800,9178,19495
+Georgia,Region 4,0,N/A,N/A,147,1.4,38503,338.1,0.2%,-20.0%,2.3,-0.1,2.4,3.1,2800,9178,19495
+Guam,N/A,Data not available,N/A,N/A,Data not available,Data not available,Data not available,Data not available,0.4%,-28.5%,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Hawaii,Region 9,Counts 1-9,N/A,N/A,Counts 1-9,Not Calculated (<20 deaths),2281,113,1.0%,11.3%,5.1,-0.5,5.7,5.2,2030,4510,9625
+Idaho,Region 10,Counts 1-9,N/A,N/A,25,1.2,5932,281.7,0.5%,-12.9%,4.1,0.1,3.7,3.5,3622,9218,18462
+Illinois,Region 5,Counts 1-9,N/A,N/A,184,1.2,43255,281.6,0.2%,-25.9%,2.4,-0.3,2.8,3.2,8723,32206,69977
+Indiana,Region 5,0,N/A,N/A,113,1.4,28090,354.1,0.2%,-1.5%,2.4,-0.3,2.8,3.2,8723,32206,69977
+Iowa,Region 7,Counts 1-9,N/A,N/A,56,1.3,12104,293.2,0.2%,-1.0%,3.1,0.5,2.7,3.2,3097,8009,17650
+Kansas,Region 7,Counts 1-9,N/A,N/A,36,1,11373,321.9,0.1%,-28.0%,3.1,0.5,2.7,3.2,3097,8009,17650
+Kentucky,Region 4,Counts 1-9,N/A,N/A,165,3.1,22206,414,0.3%,-8.0%,2.3,-0.1,2.4,3.1,2800,9178,19495
+Louisiana,Region 6,0,N/A,N/A,46,0.9,18679,349.6,0.5%,19.1%,3,-0.1,3,3.2,5904,16447,35047
+Maine,Region 1,0,N/A,N/A,14,Not Calculated (<20 deaths),3840,192.1,0.1%,-31.1%,2.5,-0.2,2.8,2.9,2797,7574,16383
+Maryland,Region 3,Counts 1-9,N/A,N/A,116,1.6,19982,273.9,0.3%,26.0%,1.7,-0.5,2.3,2.6,2283,5608,12133
+Massachusetts,Region 1,Counts 1-9,N/A,N/A,79,0.9,22897,257.5,0.3%,-9.2%,2.5,-0.2,2.8,2.9,2797,7574,16383
+Michigan,Region 5,Counts 1-9,N/A,N/A,154,1.2,40764,320.7,0.2%,-7.2%,2.4,-0.3,2.8,3.2,8723,32206,69977
+Minnesota,Region 5,Counts 1-9,N/A,N/A,102,1.5,17292,250.2,N/A,N/A,2.4,-0.3,2.8,3.2,8723,32206,69977
+Mississippi,Region 4,Counts 1-9,N/A,N/A,73,2.2,16091,464.8,0.4%,-14.2%,2.3,-0.1,2.4,3.1,2800,9178,19495
+Missouri,Region 7,Counts 1-9,N/A,N/A,74,1,24234,312.6,N/A,N/A,3.1,0.5,2.7,3.2,3097,8009,17650
+Montana,Region 8,0,N/A,N/A,13,Not Calculated (<20 deaths),4185,290.8,0.3%,94.5%,2.7,0.1,2.3,2.2,1920,4426,9364
+Nebraska,Region 7,Counts 1-9,N/A,N/A,32,1.4,6348,272.8,0.1%,-29.2%,3.1,0.5,2.7,3.2,3097,8009,17650
+Nevada,Region 9,Counts 1-9,N/A,N/A,24,0.7,12548,351,0.3%,-35.7%,5.1,-0.5,5.7,5.2,2030,4510,9625
+New Hampshire,Region 1,0,N/A,0,18,Not Calculated (<20 deaths),3712,202,0.2%,0.7%,2.5,-0.2,2.8,2.9,2797,7574,16383
+New Jersey,Region 2,Counts 1-9,N/A,N/A,160,1.4,38181,327.4,0.3%,-16.6%,2.3,-0.8,2.9,3.1,2795,6324,14105
+New Mexico,Region 6,Counts 1-9,N/A,N/A,24,0.9,10047,388.2,0.3%,-21.1%,3,-0.1,3,3.2,5904,16447,35047
+New York,Region 2,Counts 1-9,N/A,N/A,383,1.5,86494,334.5,0.3%,-6.8%,2.3,-0.8,2.9,3.1,2795,6324,14105
+New York (excludes NYC),N/A,Counts 1-9,N/A,N/A,232,1.5,45481,295.1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+New York City,N/A,Counts 1-9,N/A,N/A,151,1.4,41013,393.5,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+North Carolina,Region 4,Counts 1-9,N/A,N/A,257,2.1,37211,298,0.3%,-21.7%,2.3,-0.1,2.4,3.1,2800,9178,19495
+North Dakota,Region 8,0,N/A,N/A,11,Not Calculated (<20 deaths),2829,303,0.2%,7.6%,2.7,0.1,2.3,2.2,1920,4426,9364
+Northern Mariana Islands,N/A,Data not available,N/A,N/A,Data not available,Data not available,Data not available,Data not available,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Ohio,Region 5,0,N/A,N/A,205,1.4,53467,359.5,0.2%,-9.2%,2.4,-0.3,2.8,3.2,8723,32206,69977
+Oklahoma,Region 6,0,N/A,0,92,2,21101,460.5,N/A,N/A,3,-0.1,3,3.2,5904,16447,35047
+Oregon,Region 10,0,N/A,N/A,42,0.8,10367,197.5,0.4%,6.7%,4.1,0.1,3.7,3.5,3622,9218,18462
+Palau,N/A,Data not available,N/A,N/A,Data not available,Data not available,Data not available,Data not available,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Pennsylvania,Region 3,Counts 1-9,N/A,N/A,216,1.2,56988,319.2,0.2%,-3.2%,1.7,-0.5,2.3,2.6,2283,5608,12133
+Puerto Rico,Region 2,Counts 1-9,N/A,N/A,39,0.6,7291,137.1,N/A,N/A,2.3,-0.8,2.9,3.1,2795,6324,14105
+Republic of Marshall Islands,N/A,Data not available,N/A,N/A,Data not available,Data not available,Data not available,Data not available,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Rhode Island,Region 1,Counts 1-9,N/A,N/A,12,Not Calculated (<20 deaths),4266,288.4,0.3%,3.2%,2.5,-0.2,2.8,2.9,2797,7574,16383
+South Carolina,Region 4,Counts 1-9,N/A,N/A,100,1.6,22927,354.8,0.3%,-10.6%,2.3,-0.1,2.4,3.1,2800,9178,19495
+South Dakota,Region 8,0,N/A,0,14,Not Calculated (<20 deaths),3584,328,0.2%,32.1%,2.7,0.1,2.3,2.2,1920,4426,9364
+Tennessee,Region 4,Counts 1-9,N/A,N/A,176,2.2,30980,374.3,0.2%,-13.8%,2.3,-0.1,2.4,3.1,2800,9178,19495
+Texas,Region 6,Counts 1-9,N/A,N/A,261,1,107120,373.5,0.4%,-2.8%,3,-0.1,3,3.2,5904,16447,35047
+United States of America,National,0.4,-20,-0.1,4710,1.2,1228175,307.7,0.3%,-6.5%,2.8,-0.2,3,3.2,35971,103500,222241
+Utah,Region 8,0,N/A,N/A,12,Not Calculated (<20 deaths),5938,213.2,0.3%,0.8%,2.7,0.1,2.3,2.2,1920,4426,9364
+Vermont,Region 1,0,N/A,0,12,Not Calculated (<20 deaths),1292,147.5,0.2%,-54.6%,2.5,-0.2,2.8,2.9,2797,7574,16383
+Virgin Islands,Region 2,Data not available,N/A,N/A,Data not available,Data not available,Data not available,Data not available,N/A,N/A,2.3,-0.8,2.9,3.1,2795,6324,14105
+Virginia,Region 3,0,N/A,N/A,154,1.6,26032,259.8,0.3%,7.8%,1.7,-0.5,2.3,2.6,2283,5608,12133
+Washington,Region 10,Counts 1-9,N/A,N/A,83,1,16723,193.4,0.5%,4.5%,4.1,0.1,3.7,3.5,3622,9218,18462
+West Virginia,Region 3,0,N/A,N/A,34,1.4,9427,379,0.1%,-23.6%,1.7,-0.5,2.3,2.6,2283,5608,12133
+Wisconsin,Region 5,Counts 1-9,N/A,N/A,88,1.2,18687,252.7,0.2%,-25.9%,2.4,-0.3,2.8,3.2,8723,32206,69977
+Wyoming,Region 8,0,N/A,0,Counts 1-9,Not Calculated (<20 deaths),2339,332.8,0.0%,0.0%,2.7,0.1,2.3,2.2,1920,4426,9364

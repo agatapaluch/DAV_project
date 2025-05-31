@@ -127,7 +127,7 @@ def generate_html(ordered_files):
     ]
 
     for name, path in ordered_files:
-        # Użyj własnego tytułu jeśli istnieje, inaczej sformatuj nazwę pliku
+        # if title not specified, use specific format
         if name in custom_titles:
             display_name = custom_titles[name]
         else:
@@ -135,7 +135,7 @@ def generate_html(ordered_files):
 
         html_parts.append(f"<div class='plot-title'><h2>{display_name}</h2></div>")
 
-        # Dodaj opis jeśli istnieje
+        # add description if specified
         if name in plot_descriptions:
             html_parts.append(f"<div class='plot-description'>{plot_descriptions[name]}</div>")
 
@@ -195,7 +195,6 @@ def main():
         f.write(html)
 
     print(f"Report saved as: {OUTPUT_FILE}")
-
 
 if __name__ == "__main__":
     main()

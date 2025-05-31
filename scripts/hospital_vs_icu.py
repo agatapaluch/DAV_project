@@ -39,36 +39,36 @@ dates = hospital_df.index
 hospital_values = hospital_df["Daily hospital occupancy"]
 icu_values = icu_df["Daily ICU occupancy"]
 
+second_wave_start = pd.Timestamp("2020-10-01")
+second_wave_end = pd.Timestamp("2021-03-31")
 delta_start = pd.Timestamp("2021-05-01")
 delta_end = pd.Timestamp("2021-10-31")
 omicron_start = pd.Timestamp("2021-12-01")
 omicron_end = pd.Timestamp("2022-03-31")
 
+second_wave_peak = hospital_values[second_wave_start:second_wave_end].idxmax()
 delta_peak = hospital_values[delta_start:delta_end].idxmax()
 omicron_peak = hospital_values[omicron_start:omicron_end].idxmax()
 
 monthly_dates = pd.date_range(start=start, end=end, freq="MS")
 monthly_indices = [dates.get_loc(d) for d in monthly_dates if d in dates]
-
-highlight_indices = []
-peak_dates = [delta_peak, omicron_peak]
+peak_dates = [second_wave_peak, delta_peak, omicron_peak]
 peak_locs = [dates.get_loc(p) for p in peak_dates]
 
 all_highlight_indices = sorted(set(monthly_indices + peak_locs))
-
 highlight_indices = []
 for idx in all_highlight_indices:
     highlight_indices.append(idx)
     if idx in peak_locs:
-        highlight_indices.extend([idx] * 10) 
+        highlight_indices.extend([idx] * 10)
 
 fig, ax = plt.subplots(figsize=(10, 6))
 
 line1, = ax.plot([], [], label="Hospital occupancy", color="blue")
 line2, = ax.plot([], [], label="ICU occupancy", color="red")
 
-date_text = ax.text(0.02, 0.95, "", transform=ax.transAxes,
-                    ha="left", va="top", fontsize=15, fontweight="bold")
+date_text = ax.text(0.95, 0.85, "", transform=ax.transAxes,
+                    ha="right", va="top", fontsize=15, fontweight="bold")
 
 ax.legend(loc="upper right", frameon=True)
 
@@ -90,10 +90,21 @@ ax.set_ylabel("Occupancy", fontsize=15)
 ax.grid(color="lightgrey")
 plt.tight_layout()
 
-delta_patch = ax.axvspan(delta_start, delta_end, color="blue", alpha=0.15)
-omicron_patch = ax.axvspan(omicron_start, omicron_end, color="red", alpha=0.15)
+second_wave_patch = ax.axvspan(second_wave_start, second_wave_end, color="orange", alpha=0.15)
+delta_patch = ax.axvspan(delta_start, delta_end, color="red", alpha=0.15)
+omicron_patch = ax.axvspan(omicron_start, omicron_end, color="blue", alpha=0.15)
+
+second_wave_patch.set_visible(False)
 delta_patch.set_visible(False)
 omicron_patch.set_visible(False)
+
+second_wave_annot = ax.annotate("Second wave\nWinter–Spring 2020/2021",
+            xy=(second_wave_peak, hospital_values[second_wave_peak]),
+            xytext=(second_wave_peak, hospital_values[second_wave_peak] + ymax * 0.1),
+            ha="center",
+            arrowprops=dict(facecolor="black", arrowstyle="->"),
+            fontsize=10, bbox=dict(facecolor="white", edgecolor="gray"),
+            visible=False)
 
 delta_annot = ax.annotate("Delta variant\nSummer 2021",
             xy=(delta_peak, hospital_values[delta_peak]),
@@ -119,16 +130,21 @@ def plot(i):
     line2.set_data(dates[:idx], icu_values[:idx])
     date_text.set_text(current_date.strftime("%b %Y"))
 
+    if current_date >= second_wave_start:
+        second_wave_patch.set_visible(True)
     if current_date >= delta_start:
         delta_patch.set_visible(True)
     if current_date >= omicron_start:
         omicron_patch.set_visible(True)
+
+    if current_date >= second_wave_peak:
+        second_wave_annot.set_visible(True)
     if current_date >= delta_peak:
         delta_annot.set_visible(True)
     if current_date >= omicron_peak:
         omicron_annot.set_visible(True)
 
-    return line1, line2, date_text, delta_patch, omicron_patch, delta_annot, omicron_annot
+    return line1, line2, date_text, second_wave_patch, delta_patch, omicron_patch, second_wave_annot, delta_annot, omicron_annot
 
-ani = animation.FuncAnimation(fig, plot, frames=len(highlight_indices), interval=300, repeat=True)
+ani = animation.FuncAnimation(fig, plot, frames=len(highlight_indices), interval=500, repeat=True)
 ani.save("../plots/usa_hospital_icu.gif", writer="pillow", dpi=300)

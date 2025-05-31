@@ -38,7 +38,7 @@ for wave in waves:
         line_width=0)
 
 fig.add_annotation(
-    x=datetime(2020, 4, 15),
+    x=datetime(2020, 5, 6),
     y=df['Weekly cases per million people'].max() * 0.2,
     text="First wave<br>Spring 2020",
     showarrow=True,
@@ -138,8 +138,9 @@ fig.update_layout(
     paper_bgcolor='white',
     width=1400,
     height=700,
-    margin=dict(l=150, r=50, t=100, b=50),
+    margin=dict(l=150, r=50, t=100, b=100),
 )
 
 #fig.show()
-fig.write_html("../plots/confirmed_cases.html")
+#fig.write_html("../plots/confirmed_cases.html")
+fig.write_html("../plots/confirmed_cases.html", include_plotlyjs='directory', full_html=True)

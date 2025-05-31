@@ -54,8 +54,10 @@ fig.update_layout(
     title=dict(
         text="COVID-19: Cases in the academic year 2020/2021 in colleges in USA",
         x=0.5,
-        font=dict(color="black", size=26, family="Arial", weight="bold")
-    )
+        font=dict(color="black", size=26, family="Arial", weight="bold"),
+    ),
+    width = 1200,
+    height = 800,
 )
 
 state_labels = df_cases.groupby("STABBR").agg({"LATITUDE": "mean", "LONGITUDE": "mean"}).reset_index()
@@ -71,4 +73,6 @@ fig.add_scattergeo(
     textfont=dict(color="#20405D", size=12, weight="bold")
 )
 
-fig.write_html("../plots/covid_cases_colleges_map.html")
+#fig.write_html("../plots/covid_cases_colleges_map.html")
+fig.write_html("../plots/covid_cases_colleges_map.html", include_plotlyjs='directory', full_html=True)
+

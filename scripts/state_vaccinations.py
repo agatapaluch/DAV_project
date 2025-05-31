@@ -78,8 +78,10 @@ fig.update_layout(
     title=dict(
         text="COVID-19 vaccination trends in USA by state",
         font=dict(color="black", size=30, family="Arial", weight="bold"),
-        x=0.5, 
+        x=0.4,
     ),
+    width=1200,
+    height=800,
     xaxis_title=dict(
         text="Date",
         font=dict(color="black", size=20)
@@ -132,4 +134,5 @@ fig.update_layout(
     ),
 )
 
-fig.write_html("../plots/state_vaccination_trends.html", include_plotlyjs="cdn")
+#fig.write_html("../plots/state_vaccination_trends.html", include_plotlyjs="cdn")
+fig.write_html("../plots/state_vaccination_trends.html", include_plotlyjs='directory', full_html=True)

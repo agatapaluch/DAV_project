@@ -119,8 +119,9 @@ fig.update_layout(
     height=700,
     plot_bgcolor='white',
     paper_bgcolor='white',
-    margin=dict(l=150, r=50, t=100, b=80),
+    margin=dict(l=50, r=50, t=100, b=80),
 )
 
 #fig.show()
-fig.write_html("../plots/economic_indicators.html")
+#fig.write_html("../plots/economic_indicators.html")
+fig.write_html("../plots/economic_indicators.html", include_plotlyjs='directory', full_html=True)

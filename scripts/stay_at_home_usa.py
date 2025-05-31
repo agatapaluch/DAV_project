@@ -44,9 +44,12 @@ fig.add_scattergeo(
 fig.update_layout(
     title=dict(
         text="COVID-19: Statewide stay-at-home order in the USA (March–April 2020)",
-        x=0.5,
+        x=0.4,
+        y=0.9,
         font=dict(color="black", size=26, family="Arial", weight="bold")
     ),
+    width=1200,
+    height=800,
     margin=dict(l=0, r=0, t=50, b=0),
     legend_title_text="Stay-at-home order",
     legend_title_font=dict(
@@ -67,4 +70,5 @@ fig.update_layout(
 
 fig.update_traces(marker_line_color="#20405D", marker_line_width=1)
 
-fig.write_html("../plots/stay_home_orders_usa.html")
+#fig.write_html("../plots/stay_home_orders_usa.html")
+fig.write_html("../plots/stay_home_orders_usa.html", include_plotlyjs='directory', full_html=True)

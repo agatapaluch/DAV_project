@@ -139,8 +139,9 @@ fig.update_layout(
     paper_bgcolor='white',
     width=1400,
     height=700,
-    margin=dict(l=150, r=50, t=100, b=50),
+    margin=dict(l=150, r=50, t=100, b=115),
 )
 
 #fig.show()
-fig.write_html("../plots/confirmed_deaths.html")
+#fig.write_html("../plots/confirmed_deaths.html")
+fig.write_html("../plots/confirmed_deaths.html", include_plotlyjs='directory', full_html=True)

@@ -70,7 +70,7 @@ ax.legend(loc='upper right', frameon=True)
 xticks = pd.date_range(start=start, end=end, freq='6MS')
 ax.set_xticks(xticks)
 ax.set_xticklabels([d.strftime('%b %Y') for d in xticks])
-ax.set_xlabel("Date", fontsize=15)
+ax.set_xlabel("Date", fontsize=15, fontweight='bold')
 
 ymax = max(admissions_per_million.max(), cases_values.max()) * 1.3
 yticks = plt.MaxNLocator(nbins=6).tick_values(0, ymax)
@@ -79,7 +79,7 @@ ax.set_yticklabels([format_population(y) for y in yticks])
 
 ax.set_ylim(0, ymax)
 ax.set_xlim(start, end)
-ax.set_ylabel("Number of people / 1M", fontsize=15)
+ax.set_ylabel("Number of people / 1M", fontsize=15, fontweight='bold')
 ax.set_title("COVID-19: Weekly hospital admissions and new cases per million",
              fontweight='bold', fontsize=16, pad=15)
 ax.grid(color="lightgrey")

@@ -39,16 +39,16 @@ plt.axvline(train_series.index[-1], color="gray", linestyle="--")
 
 plt.annotate("Forecast start",
              xy=(train_series.index[-1], train_series.iloc[-1]),
-             xytext=(10, 170),  
+             xytext=(10, 270),
              textcoords="offset points",
              ha="left",
-             fontsize=10,
+             fontsize=14,
              color="black",
              fontweight="bold")
 
 plt.title("COVID-19: Weekly new cases forecast with ARIMA", fontsize=20, weight="bold", pad=15)
-plt.xlabel("Date", fontsize=16)
-plt.ylabel("Number of confirmed cases / 1M", fontsize=16)
+plt.xlabel("Date", fontsize=16, fontweight='bold')
+plt.ylabel("Number of confirmed cases / 1M", fontsize=16, fontweight='bold')
 plt.grid(color="#ebebea")
 plt.legend(loc="upper left")
 

@@ -84,11 +84,11 @@ fig.update_layout(
     height=800,
     xaxis_title=dict(
         text="Date",
-        font=dict(color="black", size=20)
+        font=dict(color="black", size=20, weight='bold')
     ),
     yaxis_title=dict(
         text="Vaccination per 100 people",
-        font=dict(color="black", size=20)
+        font=dict(color="black", size=20, weight='bold')
     ),
     xaxis=dict(
         range=[df["date"].min(), df["date"].max()],

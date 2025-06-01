@@ -75,7 +75,7 @@ ax.legend(loc="upper right", frameon=True)
 xticks = pd.date_range(start=start, end=end, freq="6MS")
 ax.set_xticks(xticks)
 ax.xaxis.set_major_formatter(plt.matplotlib.dates.DateFormatter("%b %Y"))
-ax.set_xlabel("Date", fontsize=15)
+ax.set_xlabel("Date", fontsize=15, fontweight='bold')
 
 ymax = max(hospital_values.max(), icu_values.max()) * 1.3
 yticks = plt.MaxNLocator(nbins=6).tick_values(0, ymax)
@@ -86,7 +86,7 @@ ax.set_xlim(start, end)
 ax.set_ylim(0, ymax)
 
 ax.set_title("COVID-19: Hospital and ICU occupancy in the USA", fontweight="bold", fontsize=18, pad=15)
-ax.set_ylabel("Occupancy", fontsize=15)
+ax.set_ylabel("Occupancy", fontsize=15, fontweight='bold')
 ax.grid(color="lightgrey")
 plt.tight_layout()
 

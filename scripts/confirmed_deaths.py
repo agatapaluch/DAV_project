@@ -143,5 +143,4 @@ fig.update_layout(
 )
 
 #fig.show()
-#fig.write_html("../plots/confirmed_deaths.html")
-fig.write_html("../plots/confirmed_deaths.html", include_plotlyjs='directory', full_html=True)
+fig.write_html("../plots/confirmed_deaths.html")

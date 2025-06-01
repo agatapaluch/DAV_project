@@ -80,7 +80,7 @@ fig.update_layout(
         font=dict(color="black", size=30, family="Arial", weight="bold"),
         x=0.4,
     ),
-    width=1200,
+    width=1300,
     height=800,
     xaxis_title=dict(
         text="Date",
@@ -134,5 +134,4 @@ fig.update_layout(
     ),
 )
 
-#fig.write_html("../plots/state_vaccination_trends.html", include_plotlyjs="cdn")
-fig.write_html("../plots/state_vaccination_trends.html", include_plotlyjs='directory', full_html=True)
+fig.write_html("../plots/state_vaccination_trends.html")

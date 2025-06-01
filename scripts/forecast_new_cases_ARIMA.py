@@ -30,7 +30,7 @@ forecast_result = model.get_forecast(steps=forecast_horizon)
 forecast = forecast_result.predicted_mean
 conf_int = forecast_result.conf_int(alpha=0.05)
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(14, 8))
 plt.plot(weekly_series.index, weekly_series.values, "k-", label="Original data")
 plt.plot(forecast.index, forecast.values, "b-", linewidth=2, label="Forecast")
 plt.fill_between(forecast.index, conf_int.iloc[:, 0], conf_int.iloc[:, 1], color="blue", alpha=0.15, label="95% CI")

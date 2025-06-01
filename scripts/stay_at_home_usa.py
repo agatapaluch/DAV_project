@@ -70,5 +70,4 @@ fig.update_layout(
 
 fig.update_traces(marker_line_color="#20405D", marker_line_width=1)
 
-#fig.write_html("../plots/stay_home_orders_usa.html")
-fig.write_html("../plots/stay_home_orders_usa.html", include_plotlyjs='directory', full_html=True)
+fig.write_html("../plots/stay_home_orders_usa.html")

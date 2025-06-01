@@ -69,5 +69,4 @@ fig.update_layout(
 )
 
 #fig.show()
-#fig.write_html("../plots/normalized_deaths_by_state.html")
-fig.write_html("../plots/normalized_deaths_by_state.html", include_plotlyjs='directory', full_html=True)
+fig.write_html("../plots/normalized_deaths_by_state.html")

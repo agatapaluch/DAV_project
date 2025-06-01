@@ -73,6 +73,5 @@ fig.add_scattergeo(
     textfont=dict(color="#20405D", size=12, weight="bold")
 )
 
-#fig.write_html("../plots/covid_cases_colleges_map.html")
-fig.write_html("../plots/covid_cases_colleges_map.html", include_plotlyjs='directory', full_html=True)
+fig.write_html("../plots/covid_cases_colleges_map.html")
 

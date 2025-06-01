@@ -92,7 +92,7 @@ fig.update_layout(
     title=dict(
         text="Economic indicators in the United States (2016–2025)",
         font=dict(size=24, color='black', weight='bold'),
-        x=0.9
+        x=0.8
     ),
     xaxis=dict(
         title='Date',
@@ -115,7 +115,7 @@ fig.update_layout(
         gridcolor='#E8E8E8',
         linecolor='black',
     ),
-    width=1200,
+    width=1300,
     height=700,
     plot_bgcolor='white',
     paper_bgcolor='white',
@@ -123,5 +123,4 @@ fig.update_layout(
 )
 
 #fig.show()
-#fig.write_html("../plots/economic_indicators.html")
-fig.write_html("../plots/economic_indicators.html", include_plotlyjs='directory', full_html=True)
+fig.write_html("../plots/economic_indicators.html")

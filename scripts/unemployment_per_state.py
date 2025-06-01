@@ -131,5 +131,4 @@ fig.update_coloraxes(
 )
 
 #fig.show()
-#fig.write_html("../plots/unemployment_per_state.html")
-fig.write_html("../plots/unemployment_per_state.html", include_plotlyjs='directory', full_html=True)
+fig.write_html("../plots/unemployment_per_state.html")

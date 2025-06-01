@@ -59,7 +59,7 @@ for idx in sorted(set(monthly_indices + peak_locs)):
     if idx in peak_locs:
         highlight_indices.extend([idx] * 10)
 
-fig, ax = plt.subplots(figsize=(10, 6))
+fig, ax = plt.subplots(figsize=(14, 8))
 line1, = ax.plot([], [], label='Weekly hospital admissions', color='red')
 line2, = ax.plot([], [], label='Weekly new cases', color='blue')
 

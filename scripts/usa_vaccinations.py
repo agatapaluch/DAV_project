@@ -25,7 +25,7 @@ monthly_avg = df.groupby("month")[[
     "total_boosters_per_hundred"
 ]].mean(numeric_only=True).reset_index()
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(14, 8))
 plt.plot(monthly_avg["month"], monthly_avg["people_vaccinated_per_hundred"], label="At least 1 dose", color="darkblue")
 plt.plot(monthly_avg["month"], monthly_avg["people_fully_vaccinated_per_hundred"], label="Fully vaccinated", color="lightblue")
 plt.plot(monthly_avg["month"], monthly_avg["total_boosters_per_hundred"], label="Total boosters", color="darkgreen")

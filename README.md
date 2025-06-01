@@ -39,7 +39,7 @@ Our World in Data:
 
     https://ourworldindata.org/coronavirus
 
-## Installation
+## Installation:
 
 ```bash
 git clone https://github.com/agatapaluch/covid19_USA.git

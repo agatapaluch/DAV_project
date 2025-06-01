@@ -1,4 +1,4 @@
-# Covid-19 Analysis - USA
+# Covid-19 Analysis in United States
 
 Project for Data analysis and visualization that shows statistics, trends and predictions for COVID-19 pandemic in the United States of America. 
 
@@ -25,6 +25,11 @@ GitHub repositories:
     https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
     https://github.com/google/dspl
     https://github.com/ryan-serpico/us-college-coordinates
+    https://github.com/google/dspl/blob/master/samples/google/canonical/states.csv
+
+Centers for Disease Control and Prevention:
+
+    https://covid.cdc.gov/covid-data-tracker/#datatracker-home
 
 Ballotpedia:
 
@@ -33,4 +38,11 @@ Ballotpedia:
 Our World in Data:
 
     https://ourworldindata.org/coronavirus
+
+## Installation
+
+```bash
+git clone https://github.com/agatapaluch/covid19_USA.git
+cd covid19_USA
+```
 

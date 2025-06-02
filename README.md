@@ -2,7 +2,7 @@
 
 Project for Data analysis and visualization that shows statistics, trends and predictions for COVID-19 pandemic in the United States of America. 
 
-This projects presents a comprehensive data analysis and visualization of COVID-19 infection and death rates, vaccination trends, hospitalization occupancy lockdown orders and economic indicators at both national and state levels. It also highlights the difference between forecasted infection rates and actual COVID-19 data.
+This project provides a comprehensive analysis of the COVID-19 pandemic, covering metrics such as case numbers, death rates, vaccination trends, hospital occupancy, lockdown measures, and economic indicators at both national and state levels. It also highlights the differences between forecasted infection rates and the actual COVID-19 data.
 
 ## Included plots:
 
